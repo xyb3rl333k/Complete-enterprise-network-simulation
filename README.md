@@ -47,7 +47,7 @@ crypto map CMAP 10 ipsec-isakmp
 ip nat pool NAT_POOL 202.0.0.1 202.0.0.5 netmask 255.255.255.248
 ip nat inside source list NAT_BRANCHES pool NAT_POOL overload
 
-'''
+'''bash
 
 **🚀 How to Run the Simulation**
 Download and install Cisco Packet Tracer here https://www.google.com/search?q=https://www.netacad.com/courses/packet-tracer 
