@@ -1,5 +1,5 @@
 # Complete Enterprise Network Simulation (Goldshadow Network)
-
+![Network Topology](topology.png)
 ## 📌 Project Overview
 This repository contains a comprehensive Cisco Packet Tracer simulation demonstrating a secure, multi-site enterprise network architecture. The project simulates a real-world corporate environment featuring a Headquarters (Admin/Servers), a Branch Office, and public internet access via an ISP, all interconnected using advanced routing and security protocols.
 
