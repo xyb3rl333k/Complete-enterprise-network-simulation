@@ -40,3 +40,16 @@ crypto map CMAP 10 ipsec-isakmp
  set peer 10.0.0.1
  set transform-set GRE-IPSEC 
  match address VPN-GRE
+
+
+**NAT Overload / PAT (ISP Router):**
+
+ip nat pool NAT_POOL 202.0.0.1 202.0.0.5 netmask 255.255.255.248
+ip nat inside source list NAT_BRANCHES pool NAT_POOL overload
+
+
+
+**🚀 How to Run the Simulation**
+Download and install Cisco Packet Tracer here https://www.google.com/search?q=https://www.netacad.com/courses/packet-tracer 
+Clone this repository or download the .pkt files.
+Open any of the .pkt files in Packet Tracer to view the topology, inspect router configurations via the CLI, or run simulation traffic (ping, tracert) between sites.
